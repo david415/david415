@@ -23,7 +23,7 @@
 
 Hi! 👋 I'm David. I ❤ free software, mix networks and post-quantum cryptography.
 
-I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous communication network built to resist traffic analysis by global passive adversaries. I designed its protocols and wrote it up with my coauthors in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Infeld, Stainton, Ryge, Hacker, 2025). These days I mostly write Go, Rust, Python and Lean 4, from servers down to ESP32-S3 handhelds.
+I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous communication network built to resist traffic analysis by global passive adversaries. I designed its protocols and wrote it up with my coauthors in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit Hacker, 2025). These days I mostly write Go, Rust, Python and Lean 4, from servers down to ESP32-S3 handhelds.
 
 💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs).
 
