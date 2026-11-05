@@ -27,6 +27,8 @@ I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a fre
 
 💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs).
 
+Since its EU research grant ended, Katzenpost "has survived since 2019 on volunteers and small foundation grants". If you value this work, sponsoring me keeps the work going.
+
 💖 **[Looking for GitHub Sponsors](https://github.com/sponsors/david415)**
 
 ### Currently
