@@ -64,5 +64,5 @@ I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a fre
 - 🌐 Katzenpost: [katzenpost.network](https://katzenpost.network) · [github.com/katzenpost](https://github.com/katzenpost)
 - 📄 Paper: [Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)
 - 🧪 Cryptlib: [cryptlib.io](https://cryptlib.io/) · [Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)
-- 🧭 Portfolio: [sphinx.rs](https://sphinx.rs), my work
+- 🏠 My website: [sphinx.rs](https://sphinx.rs)
 - 📡 [namenlos mixnet status](https://status.namenlos.network/)
