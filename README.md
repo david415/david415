@@ -12,7 +12,9 @@
     <a href="https://sphinx.rs/blog/">My blog (older posts)</a> ·
     <a href="https://katzenpost.network">katzenpost.network</a> ·
     <a href="https://arxiv.org/abs/2501.02933">Echomix paper</a> ·
-    <a href="https://status.namenlos.network/">namenlos mixnet status</a>
+    <a href="https://status.namenlos.network/">namenlos mixnet status</a> ·
+    <a href="https://katzenpost.network/pages/moral-character/">Moral character</a> ·
+    <a href="https://katzenpost.network/pages/chat-control/">Chat Control</a>
   </samp>
   <br><br>
   <a href="https://github.com/david415?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/david415?label=Follow&style=social"></a>
@@ -24,6 +26,16 @@ Hi! 👋 I'm David. I ❤ free software, mix networks and post-quantum cryptogra
 I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous communication network built to resist traffic analysis by global passive adversaries. I designed its protocols and wrote it up with my coauthors in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Infeld, Stainton, Ryge, Hacker, 2025). These days I mostly write Go, Rust, Python and Lean 4, from servers down to ESP32-S3 handhelds.
 
 💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs).
+
+### What I stand for
+
+> …strong anonymous communication networks should not remain the privilege of secret groups within nation states; their use is a mode of self-defence and should be available to all. ([Katzenpost Politics and Values](https://katzenpost.network/pages/moral-character/))
+
+> Ordinary users are not incidental beneficiaries of networks like this. They are the protection. ([Chat Control letter](https://katzenpost.network/pages/chat-control/))
+
+> The question is never whether a protection can be abused. It is what a society becomes without it. ([Chat Control letter](https://katzenpost.network/pages/chat-control/))
+
+Since its EU research grant ended, Katzenpost "has survived since 2019 on volunteers and small foundation grants". If you share these values, sponsoring me keeps the work going.
 
 💖 **[Looking for GitHub Sponsors](https://github.com/sponsors/david415)**
 
