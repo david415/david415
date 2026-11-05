@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img" aria-label="David Stainton: a packet's route through the layers of a mix network">
+<style>
+.fg { fill: #1f2328; }
+.sub { fill: #59636e; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.name { font: 700 46px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+.edge { stroke: #d0d7de; stroke-width: 1; }
+.node { fill: #ffffff; stroke: #818b98; stroke-width: 1.5; }
+.route { stroke: #0969da; stroke-width: 2; fill: none; }
+.pkt { fill: #0969da; }
+</style>
+<text class="fg name" x="30" y="95">David Stainton</text>
+<text class="sub" x="32" y="130">mix networks · post-quantum crypto · Lean</text>
+<g class="edge">
+  <path d="M530 100L600 50M530 100L600 100M530 100L600 150"/>
+  <path d="M600 50L700 50M600 50L700 100M600 50L700 150M600 100L700 50M600 100L700 100M600 100L700 150M600 150L700 50M600 150L700 100M600 150L700 150"/>
+  <path d="M700 50L800 50M700 50L800 100M700 50L800 150M700 100L800 50M700 100L800 100M700 100L800 150M700 150L800 50M700 150L800 100M700 150L800 150"/>
+  <path d="M800 50L870 100M800 100L870 100M800 150L870 100"/>
+</g>
+<path class="route" d="M530 100L600 150L700 50L800 100L870 100"/>
+<g class="node">
+  <circle cx="600" cy="50" r="9"/><circle cx="600" cy="100" r="9"/><circle cx="600" cy="150" r="9"/>
+  <circle cx="700" cy="50" r="9"/><circle cx="700" cy="100" r="9"/><circle cx="700" cy="150" r="9"/>
+  <circle cx="800" cy="50" r="9"/><circle cx="800" cy="100" r="9"/><circle cx="800" cy="150" r="9"/>
+</g>
+<circle class="fg" cx="530" cy="100" r="4"/><circle class="fg" cx="870" cy="100" r="4"/>
+<circle class="pkt" cx="650" cy="100" r="4"/><circle class="pkt" cx="750" cy="75" r="4"/>
+</svg>
