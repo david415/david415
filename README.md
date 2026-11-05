@@ -14,6 +14,8 @@
 
 I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous communication network built to resist traffic analysis by global passive adversaries. I designed its protocols and I am by far its largest committer. The design is written up in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Infeld, Stainton, Ryge, Hacker, 2025).
 
+💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs).
+
 ### Currently
 
 - 🕸️ **Pigeonhole on Reticulum.** Pigeonhole replicas on Reticulum meshes in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) that copy every box to every replica, with Channel-first queries, plus a bridge replica linking the mesh to the mixnet ([katzenrns](https://github.com/katzenpost/katzenrns)). hushphone, katzenrns and the T-Deck interoperate in one group chat.
