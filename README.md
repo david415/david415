@@ -21,8 +21,10 @@ I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a fre
 - 📞 **hushphone.** [Group chat with push-to-talk voice](https://github.com/katzenpost/hushphone) for Linux and Android, in Rust and Slint, over the Katzenpost mixnet or a Reticulum mesh (Reticulum-rs, or the Python RNS embedded with PyO3).
 - 🐦 **Pigeonhole protocols.** [pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols): group chat and mixnet services over Pigeonhole storage, as sans-IO state machines in Go, Rust and Python sharing one set of test vectors.
 - 🔐 **Post-quantum crypto.** [hpqc](https://github.com/katzenpost/hpqc): hybrid post-quantum KEMs, NIKEs and signatures for Go and Python: a security-preserving KEM combiner, a NIKE-to-KEM adapter, a hybrid signer, CTIDH, ML-KEM, FrodoKEM, Classic McEliece, NTRU Prime, HQC, and BACAP, our blinding-and-capability scheme. Plus [highctidh-rs](https://github.com/katzenpost/highctidh-rs), Rust bindings to CTIDH-1024.
+- 📜 **[Cryptlib](https://cryptlib.io/): a Lean cryptography library.** It started as a Lean model of hpqc and now does two jobs: real, runnable high-assurance software and protocol simulators, and proofs of security properties of primitives and protocols. Primitives are Lean structures whose fields carry their laws (a NIKE must commute, a KEM must round-trip), so an instance that breaks them cannot be constructed. [cryptlib.io](https://cryptlib.io/) · [GitHub](https://github.com/katzenpost/cryptlib)
+- 🧅 **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/).** The Sphinx packet format in cryptlib, generic over its NIKE or KEM, stream cipher, KDF, MAC and wide-block cipher. Correctness is proved once for any choice of those primitives, and the padding leak later found in Sphinx can no longer be expressed: `wrap` takes no filler argument. Integrity, wrap-resistance and indistinguishability are formalized, with the steps not yet proved stated as explicit hypotheses.
 - 🧮 **High assurance in Lean 4.** Protocols written in a proof assistant, with security properties in the types:
-  [cryptlib](https://github.com/katzenpost/cryptlib) (crypto for modeling protocols and proving their properties),
+  [cryptlib](https://cryptlib.io/) (with the [Sphinx formalization](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/) and part of BACAP),
   [uproar](https://github.com/katzenpost/uproar) (Noise and PQ Noise),
   [lean_tls](https://github.com/katzenpost/lean_tls), [lean_quic](https://github.com/katzenpost/lean_quic),
   [huh](https://github.com/katzenpost/huh) (a remote shell on PQ Noise),
@@ -63,4 +65,5 @@ I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a fre
 
 - 🌐 Katzenpost: [katzenpost.network](https://katzenpost.network) · [github.com/katzenpost](https://github.com/katzenpost)
 - 📄 Paper: [Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)
+- 🧪 Cryptlib: [cryptlib.io](https://cryptlib.io/) · [Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)
 - ✍️ Blog: [sphinx.rs](https://sphinx.rs)
