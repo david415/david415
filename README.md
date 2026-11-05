@@ -4,7 +4,7 @@
 
 **Founder of [Katzenpost](https://github.com/katzenpost). Mix networks, post-quantum cryptography, high-assurance protocol engineering.**
 
-[katzenpost.network](https://katzenpost.network) · [sphinx.rs](https://sphinx.rs) · [Echomix paper (arXiv:2501.02933)](https://arxiv.org/abs/2501.02933)
+[katzenpost.network](https://katzenpost.network) · [sphinx.rs](https://sphinx.rs) · [Echomix paper (arXiv:2501.02933)](https://arxiv.org/abs/2501.02933) · [namenlos mixnet status](https://status.namenlos.network/)
 
 </div>
 
@@ -65,3 +65,4 @@ I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a fre
 - 📄 Paper: [Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)
 - 🧪 Cryptlib: [cryptlib.io](https://cryptlib.io/) · [Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)
 - ✍️ Blog: [sphinx.rs](https://sphinx.rs)
+- 📡 [namenlos mixnet status](https://status.namenlos.network/)
