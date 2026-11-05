@@ -14,6 +14,8 @@
 
 I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous communication network built to resist traffic analysis by global passive adversaries. I designed its protocols and I am by far its largest committer. The design is written up in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Infeld, Stainton, Ryge, Hacker, 2025).
 
+💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs).
+
 ### Currently
 
 - 🕸️ **Pigeonhole on Reticulum.** Pigeonhole replicas on Reticulum meshes in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) that copy every box to every replica, with Channel-first queries, plus a bridge replica linking the mesh to the mixnet ([katzenrns](https://github.com/katzenpost/katzenrns)). hushphone, katzenrns and the T-Deck interoperate in one group chat.
@@ -30,6 +32,30 @@ I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a fre
   [frank_chat](https://github.com/katzenpost/frank_chat) and [jam](https://github.com/katzenpost/jam) (mixnet group chat clients),
   [paw](https://github.com/katzenpost/paw) (an Elm-style GUI library with security laws in its types),
   [tessera](https://github.com/katzenpost/tessera) (terminal UIs) and [cborg](https://github.com/katzenpost/cborg) (CBOR).
+
+<table><tr><td valign="top" width="50%">
+
+### Recent releases
+<!-- releases starts -->
+- [kpclientd-android v1.1.0](https://github.com/katzenpost/kpclientd-android/releases/tag/v1.1.0) - 2026-10-30
+- [hushphone v0.1.3](https://github.com/katzenpost/hushphone/releases/tag/v0.1.3) - 2026-10-29
+- [hushphone v0.1.2](https://github.com/katzenpost/hushphone/releases/tag/v0.1.2) - 2026-10-29
+- [hushphone v0.1.1](https://github.com/katzenpost/hushphone/releases/tag/v0.1.1) - 2026-10-28
+- [frank_chat v0.4.1](https://github.com/katzenpost/frank_chat/releases/tag/v0.4.1) - 2026-10-27
+<!-- releases ends -->
+
+</td><td valign="top" width="50%">
+
+### Latest blog posts
+<!-- blog starts -->
+- [Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/) - 2026-10-31
+- [Katzenpost threat model document](https://katzenpost.network/blog/2024/04/25/katzenpost-threat-model-document/) - 2024-04-25
+- [Mixnet Literature Overview](https://katzenpost.network/blog/2024/04/15/mixnet-literature-overview/) - 2024-04-15
+- [hpqc - hybrid post quantum cryptography library](https://katzenpost.network/blog/2024/04/12/hpqc-hybrid-post-quantum-cryptography-library/) - 2024-04-12
+- [Katzenpost at 37C3](https://katzenpost.network/blog/2024/01/28/katzenpost-at-37c3/) - 2024-01-28
+<!-- blog ends -->
+
+</td></tr></table>
 
 ## Languages
 
