@@ -31,6 +31,30 @@ I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a fre
   [paw](https://github.com/katzenpost/paw) (an Elm-style GUI library with security laws in its types),
   [tessera](https://github.com/katzenpost/tessera) (terminal UIs) and [cborg](https://github.com/katzenpost/cborg) (CBOR).
 
+<table><tr><td valign="top" width="50%">
+
+### Recent releases
+<!-- releases starts -->
+- [kpclientd-android v1.1.0](https://github.com/katzenpost/kpclientd-android/releases/tag/v1.1.0) - 2026-10-30
+- [hushphone v0.1.3](https://github.com/katzenpost/hushphone/releases/tag/v0.1.3) - 2026-10-29
+- [hushphone v0.1.2](https://github.com/katzenpost/hushphone/releases/tag/v0.1.2) - 2026-10-29
+- [hushphone v0.1.1](https://github.com/katzenpost/hushphone/releases/tag/v0.1.1) - 2026-10-28
+- [frank_chat v0.4.1](https://github.com/katzenpost/frank_chat/releases/tag/v0.4.1) - 2026-10-27
+<!-- releases ends -->
+
+</td><td valign="top" width="50%">
+
+### Latest blog posts
+<!-- blog starts -->
+- [Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/) - 2026-10-31
+- [Katzenpost threat model document](https://katzenpost.network/blog/2024/04/25/katzenpost-threat-model-document/) - 2024-04-25
+- [Mixnet Literature Overview](https://katzenpost.network/blog/2024/04/15/mixnet-literature-overview/) - 2024-04-15
+- [hpqc - hybrid post quantum cryptography library](https://katzenpost.network/blog/2024/04/12/hpqc-hybrid-post-quantum-cryptography-library/) - 2024-04-12
+- [Katzenpost at 37C3](https://katzenpost.network/blog/2024/01/28/katzenpost-at-37c3/) - 2024-01-28
+<!-- blog ends -->
+
+</td></tr></table>
+
 ## Languages
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
