@@ -9,7 +9,7 @@
 .pkt { fill: #58a6ff; }
 </style>
 <text class="fg name" x="30" y="95">David Stainton</text>
-<text class="sub" x="32" y="130">mix networks · post-quantum crypto · Lean</text>
+<text class="sub" x="32" y="130">mix networks · post-quantum cryptography</text>
 <g class="edge">
   <path d="M530 100L600 50M530 100L600 100M530 100L600 150"/>
   <path d="M600 50L700 50M600 50L700 100M600 50L700 150M600 100L700 50M600 100L700 100M600 100L700 150M600 150L700 50M600 150L700 100M600 150L700 150"/>
