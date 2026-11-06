@@ -46,7 +46,7 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 
 - I am by far the largest committer to Katzenpost.
 - All our group chat clients interoperate, on the mixnet, on a Reticulum mesh, or across both: a bridge joins a mixnet and a mesh by replicating boxes between their replicas.
-- The T-Deck can swap vouchers by QR code or by sound, with an MFSK acoustic modem.
+- Contact vouchers can be exchanged by QR code or by sound: hushphone and the T-Deck share an MFSK acoustic modem, so a phone and a handheld can swap them across a room.
 - In cryptlib's Sphinx, the padding leak later found in Sphinx cannot even be written down: `wrap` takes no filler argument.
 
 <table><tr><td valign="top" width="50%">
