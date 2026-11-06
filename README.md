@@ -42,10 +42,6 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 - 🧅 **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: the Sphinx packet format in cryptlib, correct for any choice of primitives.
 - 🧮 **High assurance in Lean 4**: [uproar](https://github.com/katzenpost/uproar) (Noise and PQ Noise), [lean_tls](https://github.com/katzenpost/lean_tls), [lean_quic](https://github.com/katzenpost/lean_quic), [huh](https://github.com/katzenpost/huh), [frank_chat](https://github.com/katzenpost/frank_chat), [jam](https://github.com/katzenpost/jam), [paw](https://github.com/katzenpost/paw), [tessera](https://github.com/katzenpost/tessera) and [cborg](https://github.com/katzenpost/cborg).
 
-### Fun facts
-
-- Contact vouchers travel by QR code or by sound, through an MFSK acoustic modem our phone and handheld clients share.
-
 <table><tr><td valign="top" width="50%">
 
 ### Recent releases
