@@ -33,7 +33,7 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 
 ### Currently
 
-- 🕸️ **Pigeonhole on Reticulum**: replicas in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) copy every box to every replica, and [katzenrns](https://github.com/katzenpost/katzenrns) bridges the mesh to the mixnet.
+- 🕸️ **Pigeonhole on Reticulum**: replicas in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) copy every box to every replica, and a bridge replica joins the mesh to the mixnet. [katzenrns](https://github.com/katzenpost/katzenrns) is a Python group chat client on the mesh.
 - 📟 **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: group chat and push-to-talk Radio over the mixnet on the LilyGO T-Deck Plus, with on-device BACAP and CTIDH-1024 vouchers.
 - 📞 **[hushphone](https://github.com/katzenpost/hushphone)**: group chat and push-to-talk voice for Linux and Android, in Rust and Slint, over the mixnet or a Reticulum mesh.
 - 🐦 **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services on Pigeonhole as sans-IO state machines in Go, Rust and Python.
