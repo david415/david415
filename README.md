@@ -16,31 +16,28 @@
     <a href="https://katzenpost.network/pages/moral-character/">Moral character</a> ·
     <a href="https://katzenpost.network/pages/chat-control/">Chat Control</a>
   </samp>
-  <br><br>
-  <a href="https://github.com/david415?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/david415?label=Follow&style=social"></a>
-  <a href="https://github.com/sponsors/david415"><img alt="Sponsors" src="https://img.shields.io/github/sponsors/david415?label=Sponsors&style=social"></a>
 </p>
 
-Hi 👋 I'm David. I love free software, mix networks and post-quantum cryptography.
+I'm David Stainton. I work on free software, mix networks and post-quantum cryptography.
 
 I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous network built to withstand traffic analysis by a global passive adversary. I designed its protocols, and with my coauthors I described them in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit&nbsp;Hacker, 2025). For what it's worth, in the before times I wrote code by hand in Lean, Rust, Golang, Nim, Python after abandoning C, C++ and Perl many years ago. These days I'm getting more into formal methods.
 
 💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs/contact/).
 
-Since its EU research grant ended, Katzenpost "has survived since 2019 on volunteers and small foundation grants". If you value this work, sponsoring me keeps it going.
+Since 2019, when its EU research grant ended, Katzenpost has run on volunteers and small foundation grants. If you value this work, sponsoring me keeps it going.
 
-💖 **[Sponsor me on GitHub](https://github.com/sponsors/david415)**
+**[Sponsor me on GitHub](https://github.com/sponsors/david415)**
 
 ### Currently
 
-- 🕸️ **Pigeonhole on Reticulum**: replicas in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) copy every box to every replica, and a bridge replica joins the mesh to the mixnet. [katzenrns](https://github.com/katzenpost/katzenrns) is a Python group chat client on the mesh.
-- 📟 **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: group chat and push-to-talk Radio over the mixnet on the LilyGO T-Deck Plus, with on-device BACAP and CTIDH-1024 vouchers.
-- 📞 **[hushphone](https://github.com/katzenpost/hushphone)**: group chat and push-to-talk voice for Linux and Android, in Rust and Slint, over the mixnet or a Reticulum mesh.
-- 🐦 **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services on Pigeonhole as sans-IO state machines in Go, Rust and Python.
-- 🔐 **[hpqc](https://github.com/katzenpost/hpqc)**: hybrid post-quantum KEMs, NIKEs and signatures, written in Go, Python and Rust.
-- 📜 **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean model and implementation of hpqc.
-- 🧅 **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: the Sphinx packet format in cryptlib, correct for any choice of primitives.
-- 🧮 **High assurance in Lean 4**: [uproar](https://github.com/katzenpost/uproar) (Noise and PQ Noise), [lean_tls](https://github.com/katzenpost/lean_tls), [lean_quic](https://github.com/katzenpost/lean_quic), [huh](https://github.com/katzenpost/huh), [frank_chat](https://github.com/katzenpost/frank_chat), [jam](https://github.com/katzenpost/jam), [paw](https://github.com/katzenpost/paw), [tessera](https://github.com/katzenpost/tessera) and [cborg](https://github.com/katzenpost/cborg).
+- **Pigeonhole on Reticulum**: Pigeonhole replicas in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) run on a Reticulum mesh, and a bridge replica joins the mesh to the mixnet. [katzenrns](https://github.com/katzenpost/katzenrns) is a Python group chat client on the mesh.
+- **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: group chat and push-to-talk radio over the mixnet on the LilyGO T-Deck Plus.
+- **[hushphone](https://github.com/katzenpost/hushphone)**: group chat and push-to-talk voice for Linux and Android, in Rust and Slint, over the mixnet or a Reticulum mesh.
+- **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services on Pigeonhole as sans-IO state machines in Go, Rust and Python.
+- **[hpqc](https://github.com/katzenpost/hpqc)**: hybrid post-quantum KEMs, NIKEs and signatures, written in Go, Python and Rust.
+- **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean model and implementation of hpqc.
+- **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: the Sphinx packet format in Cryptlib, proved correct for any choice of primitives.
+- **High assurance in Lean 4**: implementations of Noise and PQ Noise ([uproar](https://github.com/katzenpost/uproar)), TLS ([lean_tls](https://github.com/katzenpost/lean_tls)) and QUIC ([lean_quic](https://github.com/katzenpost/lean_quic)).
 
 <table><tr><td valign="top" width="50%">
 
@@ -65,10 +62,3 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 <!-- blog ends -->
 
 </td></tr></table>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=david415&show_icons=true&hide_border=true&disable_animations=true&theme=github_dark&bg_color=00000000">
-    <img alt="David's GitHub stats" src="https://github-readme-stats-fast.vercel.app/api?username=david415&show_icons=true&hide_border=true&disable_animations=true&bg_color=00000000">
-  </picture>
-</p>
