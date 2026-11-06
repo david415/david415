@@ -21,33 +21,33 @@
   <a href="https://github.com/sponsors/david415"><img alt="Sponsors" src="https://img.shields.io/github/sponsors/david415?label=Sponsors&style=social"></a>
 </p>
 
-Hi! 👋 I'm David. I ❤ free software, mix networks and post-quantum cryptography.
+Hi 👋 I'm David. I love free software, mix networks and post-quantum cryptography.
 
-I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous communication network built to resist traffic analysis by global passive adversaries. I designed its protocols and wrote it up with my coauthors in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit&nbsp;Hacker, 2025). For what it's worth, in the before times I wrote code by hand in Lean, Rust, Golang, Nim, Python after abandoning C, C++ and Perl many years ago. These days I'm getting more into formal methods.
+I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous network built to withstand traffic analysis by a global passive adversary. I designed its protocols, and with my coauthors I described them in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit&nbsp;Hacker, 2025). For what it's worth, in the before times I wrote code by hand in Lean, Rust, Golang, Nim, Python after abandoning C, C++ and Perl many years ago. These days I'm getting more into formal methods.
 
 💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs/contact/).
 
-Since its EU research grant ended, Katzenpost "has survived since 2019 on volunteers and small foundation grants". If you value this work, sponsoring me keeps the work going.
+Since its EU research grant ended, Katzenpost "has survived since 2019 on volunteers and small foundation grants". If you value this work, sponsoring me keeps it going.
 
-💖 **[Looking for GitHub Sponsors](https://github.com/sponsors/david415)**
+💖 **[Sponsor me on GitHub](https://github.com/sponsors/david415)**
 
 ### Currently
 
-- 🕸️ **Pigeonhole on Reticulum**: replicas in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) that copy every box to every replica, plus a mesh-to-mixnet bridge ([katzenrns](https://github.com/katzenpost/katzenrns)).
-- 📟 **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: mixnet group chat and push-to-talk Radio on the LilyGO T-Deck Plus, with on-device BACAP and CTIDH-1024 vouchers.
-- 📞 **[hushphone](https://github.com/katzenpost/hushphone)**: group chat with push-to-talk voice for Linux and Android, in Rust and Slint, over the mixnet or a Reticulum mesh.
-- 🐦 **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services over Pigeonhole as sans-IO state machines in Go, Rust and Python.
-- 🔐 **[hpqc](https://github.com/katzenpost/hpqc)**: hybrid post-quantum KEMs, NIKEs and signatures for Go and Python; CTIDH Rust bindings upstream in [highctidh](https://codeberg.org/vula/highctidh) and [highctidh-rs](https://github.com/katzenpost/highctidh-rs).
-- 📜 **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean cryptography library for runnable high-assurance code and proofs, where an instance that breaks a primitive's laws cannot be constructed.
-- 🧅 **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: the Sphinx packet format in cryptlib, correct for any choice of its primitives.
+- 🕸️ **Pigeonhole on Reticulum**: replicas in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) copy every box to every replica, and [katzenrns](https://github.com/katzenpost/katzenrns) bridges the mesh to the mixnet.
+- 📟 **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: group chat and push-to-talk Radio over the mixnet on the LilyGO T-Deck Plus, with on-device BACAP and CTIDH-1024 vouchers.
+- 📞 **[hushphone](https://github.com/katzenpost/hushphone)**: group chat and push-to-talk voice for Linux and Android, in Rust and Slint, over the mixnet or a Reticulum mesh.
+- 🐦 **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services on Pigeonhole as sans-IO state machines in Go, Rust and Python.
+- 🔐 **[hpqc](https://github.com/katzenpost/hpqc)**: hybrid post-quantum KEMs, NIKEs and signatures for Go and Python. Its CTIDH Rust bindings live upstream in [highctidh](https://codeberg.org/vula/highctidh) and [highctidh-rs](https://github.com/katzenpost/highctidh-rs).
+- 📜 **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean cryptography library for runnable, high-assurance code and its proofs. An instance that breaks a primitive's laws cannot be constructed.
+- 🧅 **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: the Sphinx packet format in cryptlib, correct for any choice of primitives.
 - 🧮 **High assurance in Lean 4**: [uproar](https://github.com/katzenpost/uproar) (Noise and PQ Noise), [lean_tls](https://github.com/katzenpost/lean_tls), [lean_quic](https://github.com/katzenpost/lean_quic), [huh](https://github.com/katzenpost/huh), [frank_chat](https://github.com/katzenpost/frank_chat), [jam](https://github.com/katzenpost/jam), [paw](https://github.com/katzenpost/paw), [tessera](https://github.com/katzenpost/tessera) and [cborg](https://github.com/katzenpost/cborg).
 
 ### Fun facts
 
-- I am by far the largest committer to Katzenpost.
-- All our group chat clients interoperate, on the mixnet, on a Reticulum mesh, or across both: a bridge joins a mixnet and a mesh by replicating boxes between their replicas.
-- The T-Deck has no camera, so it swaps contact vouchers by sound: it and hushphone share an MFSK acoustic modem, and a phone can also just scan the QR code the T-Deck shows.
-- In cryptlib's Sphinx, the padding leak later found in Sphinx cannot even be written down: `wrap` takes no filler argument.
+- No one has made more commits to Katzenpost, by a wide margin.
+- All our group chat clients interoperate across the mixnet and Reticulum meshes, joined by a bridge that replicates boxes between their replicas.
+- Contact vouchers travel by QR code or by sound, through an MFSK acoustic modem our phone and handheld clients share.
+- Cryptlib's Sphinx cannot even express the padding leak later found in Sphinx, because `wrap` takes no filler argument.
 
 <table><tr><td valign="top" width="50%">
 
