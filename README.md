@@ -44,7 +44,6 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 
 ### Fun facts
 
-- All our group chat clients interoperate across the mixnet and Reticulum meshes, joined by a bridge that replicates boxes between their replicas.
 - Contact vouchers travel by QR code or by sound, through an MFSK acoustic modem our phone and handheld clients share.
 
 <table><tr><td valign="top" width="50%">
