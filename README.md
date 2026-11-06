@@ -37,8 +37,8 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 - 📟 **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: group chat and push-to-talk Radio over the mixnet on the LilyGO T-Deck Plus, with on-device BACAP and CTIDH-1024 vouchers.
 - 📞 **[hushphone](https://github.com/katzenpost/hushphone)**: group chat and push-to-talk voice for Linux and Android, in Rust and Slint, over the mixnet or a Reticulum mesh.
 - 🐦 **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services on Pigeonhole as sans-IO state machines in Go, Rust and Python.
-- 🔐 **[hpqc](https://github.com/katzenpost/hpqc)**: hybrid post-quantum KEMs, NIKEs and signatures for Go and Python. Its CTIDH Rust bindings live upstream in [highctidh](https://codeberg.org/vula/highctidh) and [highctidh-rs](https://github.com/katzenpost/highctidh-rs).
-- 📜 **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean cryptography library for runnable, high-assurance code and its proofs. An instance that breaks a primitive's laws cannot be constructed.
+- 🔐 **[hpqc](https://github.com/katzenpost/hpqc)**: hybrid post-quantum KEMs, NIKEs and signatures, written in Go, Python and Rust.
+- 📜 **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean model and implementation of hpqc.
 - 🧅 **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: the Sphinx packet format in cryptlib, correct for any choice of primitives.
 - 🧮 **High assurance in Lean 4**: [uproar](https://github.com/katzenpost/uproar) (Noise and PQ Noise), [lean_tls](https://github.com/katzenpost/lean_tls), [lean_quic](https://github.com/katzenpost/lean_quic), [huh](https://github.com/katzenpost/huh), [frank_chat](https://github.com/katzenpost/frank_chat), [jam](https://github.com/katzenpost/jam), [paw](https://github.com/katzenpost/paw), [tessera](https://github.com/katzenpost/tessera) and [cborg](https://github.com/katzenpost/cborg).
 
