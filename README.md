@@ -45,7 +45,7 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 ### Fun facts
 
 - I am by far the largest committer to Katzenpost.
-- hushphone, katzenrns and the T-Deck all talk in one group chat.
+- All our group chat clients interoperate, on the mixnet, on a Reticulum mesh, or across both: a bridge joins a mixnet and a mesh by replicating boxes between their replicas.
 - The T-Deck can swap vouchers by QR code or by sound, with an MFSK acoustic modem.
 - In cryptlib's Sphinx, the padding leak later found in Sphinx cannot even be written down: `wrap` takes no filler argument.
 
