@@ -44,7 +44,6 @@ Since its EU research grant ended, Katzenpost "has survived since 2019 on volunt
 
 ### Fun facts
 
-- No one has made more commits to Katzenpost, by a wide margin.
 - All our group chat clients interoperate across the mixnet and Reticulum meshes, joined by a bridge that replicates boxes between their replicas.
 - Contact vouchers travel by QR code or by sound, through an MFSK acoustic modem our phone and handheld clients share.
 - Cryptlib's Sphinx cannot even express the padding leak later found in Sphinx, because `wrap` takes no filler argument.
