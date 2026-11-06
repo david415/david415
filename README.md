@@ -20,7 +20,7 @@
 
 I'm David Stainton. I work on free software, mix networks and post-quantum cryptography.
 
-I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software, post-quantum mix network that protects metadata against a global passive adversary. I designed its protocols, and with my coauthors I described them in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit&nbsp;Hacker, 2025). For what it's worth, in the before times I wrote code by hand in Lean, Rust, Golang, Nim, Python after abandoning C, C++ and Perl many years ago. These days I'm getting more into formal methods.
+I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software, post-quantum mix network that protects metadata against a global passive adversary. With my coauthors I described its design in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit&nbsp;Hacker, 2025). For what it's worth, in the before times I wrote code by hand in Lean, Rust, Golang, Nim, Python after abandoning C, C++ and Perl many years ago. These days I'm getting more into formal methods.
 
 💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs/contact/).
 
