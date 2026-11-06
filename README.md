@@ -20,7 +20,7 @@
 
 I'm David Stainton. I work on free software, mix networks and post-quantum cryptography.
 
-I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software mix network: an anonymous network built to withstand traffic analysis by a global passive adversary. I designed its protocols, and with my coauthors I described them in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit&nbsp;Hacker, 2025). For what it's worth, in the before times I wrote code by hand in Lean, Rust, Golang, Nim, Python after abandoning C, C++ and Perl many years ago. These days I'm getting more into formal methods.
+I founded and lead [Katzenpost](https://github.com/katzenpost/katzenpost), a free software, post-quantum mix network that protects metadata against a global passive adversary. I designed its protocols, and with my coauthors I described them in **[Echomix: a Strong Anonymity System with Messaging](https://arxiv.org/abs/2501.02933)** (Ewa, David, Leif and Threebit&nbsp;Hacker, 2025). For what it's worth, in the before times I wrote code by hand in Lean, Rust, Golang, Nim, Python after abandoning C, C++ and Perl many years ago. These days I'm getting more into formal methods.
 
 💼 **Available for consulting and contract work:** mix networks, post-quantum cryptography, protocol design and formal verification in Lean. Get in touch via [my website](https://sphinx.rs/contact/).
 
@@ -30,14 +30,14 @@ Since 2019, when its EU research grant ended, Katzenpost has run on volunteers a
 
 ### Currently
 
-- **Pigeonhole on Reticulum**: Pigeonhole replicas in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)) run on a Reticulum mesh, and a bridge replica joins the mesh to the mixnet. [katzenrns](https://github.com/katzenpost/katzenrns) is a Python group chat client on the mesh.
-- **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: group chat and push-to-talk radio over the mixnet on the LilyGO T-Deck Plus.
+- **Pigeonhole on Reticulum**: storage replicas for Reticulum meshes, in Rust (Reticulum-rs) and Python ([pigeonhole_rns](https://github.com/katzenpost/pigeonhole_rns)), that bridge the mesh to the mixnet; on the mesh, the group chat client [katzenrns](https://github.com/katzenpost/katzenrns) shares groups with mixnet clients.
+- **[pigeonhole_reticulous](https://github.com/katzenpost/pigeonhole_reticulous)**: Pigeonhole apps, starting with group chat, for Reticulous devices such as the LilyGO T-Deck Plus, which share groups with mixnet clients through a bridge replica.
 - **[hushphone](https://github.com/katzenpost/hushphone)**: group chat and push-to-talk voice for Linux and Android, in Rust and Slint, over the mixnet or a Reticulum mesh.
-- **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services on Pigeonhole as sans-IO state machines in Go, Rust and Python.
-- **[hpqc](https://github.com/katzenpost/hpqc)**: hybrid post-quantum KEMs, NIKEs and signatures, written in Go, Python and Rust.
-- **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean model and implementation of hpqc.
-- **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: the Sphinx packet format in Cryptlib, proved correct for any choice of primitives.
-- **High assurance in Lean 4**: implementations of Noise and PQ Noise ([uproar](https://github.com/katzenpost/uproar)), TLS ([lean_tls](https://github.com/katzenpost/lean_tls)) and QUIC ([lean_quic](https://github.com/katzenpost/lean_quic)).
+- **[pigeonhole_protocols](https://github.com/katzenpost/pigeonhole_protocols)**: group chat and mixnet services over Pigeonhole, in Go, Rust and Python, each protocol written as a sans-IO state machine.
+- **[hpqc](https://github.com/katzenpost/hpqc)**: the hybrid post-quantum NIKEs, KEMs and signatures that Katzenpost uses, in Go, Python and Rust.
+- **[Cryptlib](https://cryptlib.io/)** ([GitHub](https://github.com/katzenpost/cryptlib)): a Lean library whose primitives are types that carry their own proof obligations; it began as a model of hpqc and now also implements protocols beyond it, such as Katzenpost's Sphinx packet format, checked against Katzenpost's test vectors.
+- **[Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/)**: how Cryptlib's Sphinx is written generically over its primitives and proved correct for any choice of them.
+- **High assurance in Lean 4**: Noise and PQ Noise ([uproar](https://github.com/katzenpost/uproar)), the TLS 1.3 handshake as QUIC carries it ([lean_tls](https://github.com/katzenpost/lean_tls)) and post-quantum QUIC ([lean_quic](https://github.com/katzenpost/lean_quic)), all built on Cryptlib.
 
 <table><tr><td valign="top" width="50%">
 
