@@ -54,11 +54,11 @@ Since 2019, when its EU research grant ended, Katzenpost has run on volunteers a
 
 ### Katzenpost Blog posts
 <!-- blog starts -->
+- [Introduction to Pigeonhole Protocol](https://katzenpost.network/blog/2026/11/05/introduction-to-pigeonhole-protocol/) - 2026-11-05
 - [Formalizing Sphinx in Lean](https://katzenpost.network/blog/2026/10/31/formalizing-sphinx-in-lean/) - 2026-10-31
 - [Katzenpost threat model document](https://katzenpost.network/blog/2024/04/25/katzenpost-threat-model-document/) - 2024-04-25
 - [Mixnet Literature Overview](https://katzenpost.network/blog/2024/04/15/mixnet-literature-overview/) - 2024-04-15
 - [hpqc - hybrid post quantum cryptography library](https://katzenpost.network/blog/2024/04/12/hpqc-hybrid-post-quantum-cryptography-library/) - 2024-04-12
-- [Katzenpost at 37C3](https://katzenpost.network/blog/2024/01/28/katzenpost-at-37c3/) - 2024-01-28
 <!-- blog ends -->
 
 </td></tr></table>
