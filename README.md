@@ -43,11 +43,11 @@ Since 2019, when its EU research grant ended, Katzenpost has run on volunteers a
 
 ### Recent releases
 <!-- releases starts -->
+- [kpclientd-android v1.2.0](https://github.com/katzenpost/kpclientd-android/releases/tag/v1.2.0) - 2026-11-10
 - [kpclientd-android v1.1.0](https://github.com/katzenpost/kpclientd-android/releases/tag/v1.1.0) - 2026-10-30
 - [hushphone v0.1.3](https://github.com/katzenpost/hushphone/releases/tag/v0.1.3) - 2026-10-29
 - [hushphone v0.1.2](https://github.com/katzenpost/hushphone/releases/tag/v0.1.2) - 2026-10-29
 - [hushphone v0.1.1](https://github.com/katzenpost/hushphone/releases/tag/v0.1.1) - 2026-10-28
-- [frank_chat v0.4.1](https://github.com/katzenpost/frank_chat/releases/tag/v0.4.1) - 2026-10-27
 <!-- releases ends -->
 
 </td><td valign="top" width="50%">
