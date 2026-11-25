@@ -43,11 +43,11 @@ Since 2019, when its EU research grant ended, Katzenpost has run on volunteers a
 
 ### Recent releases
 <!-- releases starts -->
+- [katzenpost v0.0.113](https://github.com/katzenpost/katzenpost/releases/tag/v0.0.113) - 2026-11-25
 - [hushphone v0.3.7](https://github.com/katzenpost/hushphone/releases/tag/v0.3.7) - 2026-11-20
 - [hushphone v0.3.6](https://github.com/katzenpost/hushphone/releases/tag/v0.3.6) - 2026-11-19
 - [kno v0.0.1](https://github.com/katzenpost/kno/releases/tag/v0.0.1) - 2026-11-19
 - [hushphone v0.3.5](https://github.com/katzenpost/hushphone/releases/tag/v0.3.5) - 2026-11-18
-- [hushphone v0.3.4](https://github.com/katzenpost/hushphone/releases/tag/v0.3.4) - 2026-11-15
 <!-- releases ends -->
 
 </td><td valign="top" width="50%">
